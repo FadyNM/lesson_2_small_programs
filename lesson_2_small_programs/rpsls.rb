@@ -38,6 +38,13 @@ def re_assigning(choice)
   when 'sc' then choice = MOVES_AND_CHOICES.keys[3]
   when 'sp' then choice = MOVES_AND_CHOICES.keys[4]
   when 'l' then choice = MOVES_AND_CHOICES.keys[2]
+  # Updating the code so user input can be
+  # short form or the full word.
+  when 'rock' then choice = MOVES_AND_CHOICES.keys[0]
+  when 'paper' then choice = MOVES_AND_CHOICES.keys[1]
+  when 'scissors' then choice = MOVES_AND_CHOICES.keys[3]
+  when 'spock' then choice = MOVES_AND_CHOICES.keys[4]
+  when 'lizard' then choice = MOVES_AND_CHOICES.keys[2]
   end
 end
 
